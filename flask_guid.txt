@@ -1,0 +1,41 @@
+step-1 : install virtualenv. command is [ pip install virtualenv ]
+
+step-2 : creat virtualenv. command is [ virtualenv env ]
+
+step-3 : active virtualenv in terminal, for our project. command is [ .\env\Scripts\activate.ps1 ] user ps1 for powershell.
+
+step-4 : creat a [ static ] and [ templates ] name folder in our project folder, we use static folder for shwo any video / img / text file etc.
+and we use templates folder for making a html file and show the html page in the web page in our projects.
+
+install [ pip install flask-sqlalchemy ] this for work and make a database this is must install on environment*
+
+create a class for make a model for our projects*
+
+then open terminal and type python then import...*
+>>> from app import db
+>>> db.create_all()
+
+if im use this comment in terminal then create a db sqllite database in ourt project then
+if im open and see what is this database so  open a github link [ https://inloop.github.io/sqlite-viewer/ ] then drop a database file in this drop box for see all models in our database*
+
+importent link for flask [ https://flask-sqlalchemy.palletsprojects.com/en/2.x/config/ ]*
+
+
+DIPLOY WEBSITE IN HEROKU WITH THIS COMMENT IN TERMINAL*
+
+   1 heroku
+   2 heroku login
+   3 git init
+   4 git add .
+   5 git commit -m 'Initial Commit'
+   6 heroku create todo-udoy
+   7 git remote -v
+   8 git push heroku master
+   9 heroku logs --tail
+  10 git status
+  11 git add .
+  12 git status
+  13 git commit -m 'second commit fix first problme'
+  14 git status
+  15 git push heroku maste
+  16 history
